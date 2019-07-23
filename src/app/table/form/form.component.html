@@ -1,0 +1,33 @@
+<div class="content">
+  <div class="card">
+    <div class="card-header">Form </div>
+    <div class="card-body">
+      <form [formGroup]="logForm" (ngSubmit)="onSubmit()">
+        <div class="form-group col-md-6">
+          <label for="first">First</label>
+          <input type="text" name="first" id="first" placeholder="first" class="form-control" formControlName="co_name"
+            required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="middle">middle</label>
+          <input type="text" name="middle" id="middle" placeholder="middle" class="form-control"
+            formControlName="co_profile" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="last">last</label>
+          <input type="text" name="last" id="last" placeholder="last" class="form-control" formControlName="co_address"
+            required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="email" class="form-control" formControlName="co_email"
+            required>
+        </div>
+        <div class="form-group col-md-6">
+          <button class="btn btn-outline-primary" type="submit">Save</button>
+          <button class="btn btn-outline-danger" type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

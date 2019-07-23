@@ -1,0 +1,35 @@
+<div class="content">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <div class="card-header"> Form </div>
+        <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+
+          <div class="form-group col-md-6">
+            <label for="first">First</label>
+            <input type="text" name="first" id="first" ngModel placeholder="first" class="form-control" required>
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="middle">middle</label>
+            <input type="text" name="middle" id="middle" ngModel placeholder="middle" class="form-control" required>
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="last">last</label>
+            <input type="text" name="last" id="last" ngModel placeholder="last" class="form-control" required>
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" ngModel placeholder="email" class="form-control" required>
+          </div>
+          <div class="form-group col-md-6">
+            <button class="btn btn-outline-primary" type="submit">Save</button>
+            <button class="btn btn-outline-danger" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.content {
+  text-align: center;
+  margin: 5px;
+}
+.card {
+  margin: 10px;
+  box-shadow: 3px 1px 3px 1px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.btn {
+  margin: 5px;
+}

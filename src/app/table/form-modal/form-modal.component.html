@@ -1,0 +1,14 @@
+<div class="modal-header">
+  <h4 class="modal-title">Add New Forms</h4>
+  <button type="button" (click)="activeModal.dismiss('Cross click')" class="close">X
+
+  </button>
+</div>
+<div class="modal-body">
+  <div class="modal-text">
+    <div class="text-danger"> Are You Ready To Add Forms..!</div>
+  </div>
+  <a class="space btn btn-outline-primary" routerLink="/form"
+    (click)="activeModal.dismiss('Close clicked')">Continue</a>
+  <a class="space btn btn-outline-secondary" (click)="activeModal.dismiss('Close clicked')">Cancel</a>
+</div>
